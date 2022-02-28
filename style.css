@@ -1,0 +1,298 @@
+/************************/
+/* 	    LES POLICES - 2 maxi       */
+/************************/
+:root
+{
+   --mapolice1: 'Roboto';
+   --mapolice2: 'Cinzel';
+
+
+   --macouleurbleuclair :#94bce4 ;
+   --macouleurbleu :#272ab8 ;
+   --macouleurjaune :#d3d02b ;
+   --macouleurvert :#1ea72a ;
+   --macouleurorange :#d18125 ;
+   --macouleurrouge :#c01f1f ;
+   --macouleurblanc :#edeaf3 ;
+   --macouleurnoir :#121213 ;
+   --macouleurviolet :#bc32ce ;
+   --macouleurgrisclair : #E9ECEF;
+   --macouleurgrismoyen : #ADB5BD;
+   --macouleurgrisfonce : #343A40;
+}
+
+
+
+/************************/
+/* 	    COULEURS        */
+/************************/
+
+/*
+
+*/
+
+
+.primary {
+	background-color: var(--macouleurbleuclair);
+}
+
+.text-primary {
+  color: hsl(253, 67%, 62%);	
+}
+
+
+.secondary {
+    background-color: var(--macouleurve);
+  }
+  
+  .dark{
+    color: #343A40;
+  }
+  
+  .medium-light{
+    color: #ADB5BD;
+  }
+  
+  .light{
+     color: #E9ECEF;
+  }
+
+/************************/
+/* 	    LES ALERTES        */
+/************************/
+
+.alert-success{
+    color:  var(--macouleurvert )  ;
+}
+.alert-danger{
+    color:  var(--macouleurrouge )  ;
+}
+.alert-warning{
+    color:  var(--macouleurorange )  ;
+}
+.alert-info{
+    color:  var(--macouleurbleu )  ;
+}
+
+
+
+
+/************************/
+/* 	    LES BOUTONS        */
+/************************/
+
+
+/* bouton normaux */
+btn {
+    font-size: 10px; font-family: var(--mapolice1), Helvetica, sans-serif ;
+}
+
+/* bouton outline */
+btn-lg {
+    border-radius: 8px; font-size: 10px; font-family: var(--mapolice1), Helvetica, sans-serif ;
+}
+
+
+/* Les petits (sm) et grand lg */
+btn-sm {
+    border-radius: 8px; font-size: 10px; font-family: var(--mapolice1), Helvetica, sans-serif ;
+}
+
+btn-lg {
+    border-radius: 8px; font-size: 10px; font-family: var(--mapolice1), Helvetica, sans-serif ;
+}
+
+
+/************************/
+/* 	    LES SEPARATEURS */
+/************************/
+
+
+/*
+div {
+    background-color: rgba(165, 232, 236, 0.986);
+    color: var(--toto);
+    }
+*/
+
+body, h1, h2, h3, h4, h5, h6  {
+    font-family: var(--mapolice2), Helvetica, sans-serif ;
+    color: #524f4f
+    }
+
+
+p  {
+    font-family: var(--mapolice1), Helvetica, sans-serif ;
+    }
+
+    
+/************************/
+/* 	    BLOG QUOTE  */
+/************************/
+blockquote {
+    font-family: italic;
+    }
+
+
+    
+
+/*********************************** tag lead **************************************/
+
+lead {
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+/************************/
+/* 	    LES LISTES       */
+/************************/
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(238, 231, 231);
+    }
+
+    ol {
+        font-family: Arial, Helvetica, sans-serif ;
+        }
+    
+    li {
+        float: left;
+        }
+
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+
+
+
+
+/************************/
+/* 	    LES TABLES       */
+/************************/
+
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #1d1b1b;
+    text-align: left;
+    padding: 8px;
+  }
+  
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+/************************/
+/* 	    LES CLASS        */
+/************************/
+
+.mapolice1{ 
+    font-family: var(--mapolice1)
+} 
+.mapolice2{
+    font-family: var(--mapolice2)
+
+} 
+
+.container {
+    background-color: rgb(139, 173, 187);
+    }
+
+
+
+   .listing {
+    border: 10px ridge #f00;
+    background-color: #ff0;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    }
+
+.listing img {
+    width: 100%;
+    }
+
+.TODO {
+    font-family: italic;
+    font-size: 10px;
+    color: var(--macouleurrouge)
+    
+}
+
+
+
+
+/************************/
+/* 	    LES LIENS        */
+/************************/
+
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+/************************/
+/* 	    NAVBAR       */
+/************************/
+
+/************************/
+/* 	    iconographie       */
+/************************/
+
+
+/************************/
+/* 	   inputs de formulaires   */
+/************************/
+
+
+
+/************************/
+/* 	   LIST BOOTSTRAP   */
+/************************/ 
+
+.list-group{
+  color: #c01f1f ;
+  }
+  
+  .list-group-item
+{
+    color: #c01f1f ;
+  }

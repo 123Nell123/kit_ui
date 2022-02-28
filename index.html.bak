@@ -1,0 +1,15 @@
+/************************/
+/* 	    COULEURS        */
+/************************/
+
+.primary {
+	background-color: #000000;
+}
+
+.text-primary {
+  color: #5D9CEC;	
+}
+
+
+
+<p> hello boy </p>
