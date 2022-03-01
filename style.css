@@ -16,8 +16,8 @@
    --macouleurblanc :#edeaf3 ;
    --macouleurnoir :#121213 ;
    --macouleurviolet :#bc32ce ;
-   --macouleurgrisclair : #E9ECEF;
-   --macouleurgrismoyen : #ADB5BD;
+   --macouleurgrisclair : #c5c8cc;
+   --macouleurgrismoyen : #7d8185;
    --macouleurgrisfonce : #343A40;
 }
 
@@ -46,15 +46,15 @@
   }
   
   .dark{
-    color: #343A40;
+    color: var(--macouleurgrisfonce);
   }
   
   .medium-light{
-    color: #ADB5BD;
+    color: var(--macouleurgrismoyen);
   }
   
   .light{
-     color: #E9ECEF;
+     color: var(--macouleurgrisclair);
   }
 
 /************************/
