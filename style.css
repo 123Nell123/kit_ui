@@ -215,11 +215,14 @@ li a {
     font-family: var(--mapolice2)
 
 } 
-
+/*
 .container {
-    background-color: rgb(139, 173, 187);
+    background-color: rgb(14, 108, 145);
     }
-
+.container-fluid {
+  background-color: rgb(29, 26, 218);
+  }
+ */ 
 
 
    .listing {
